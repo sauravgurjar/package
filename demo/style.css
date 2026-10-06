@@ -1,0 +1,11 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #1e293b;
+  background: #f8fafc;
+}
+
+body { margin: 0; }
+main { max-width: 1042px; margin: 12vh auto; padding: 24px; }
+h1 { font-size: clamp(28px, 5vw, 44px); }
+p { line-height: 1.6; }
+.examples { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }

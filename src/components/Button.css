@@ -1,0 +1,29 @@
+.asknow-button {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.asknow-button--primary {
+  background: #4338ca;
+  color: white;
+}
+
+.asknow-button--secondary {
+  border-color: #cbd5e1;
+  background: white;
+  color: #1e293b;
+}
+
+.asknow-button:focus-visible {
+  outline: 3px solid #818cf8;
+  outline-offset: 3px;
+}
+
+.asknow-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
